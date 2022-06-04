@@ -35,11 +35,13 @@ postList: none
 
 ## 👨‍💻代码托管
 
+在线体验的用户名/密码：admin/123456。
 
 | 分类 |                        GitHub                        |                        Gitee                        |
 | :--: | :--------------------------------------------------: | :-------------------------------------------------: |
 | 后端 |  [https://github.com/eryajf/go-ldap-admin.git](https://github.com/eryajf/go-ldap-admin.git)   |  [https://gitee.com/eryajf-world/go-ldap-admin.git](https://gitee.com/eryajf-world/go-ldap-admin.git)   |
 | 前端 | [https://github.com/eryajf/go-ldap-admin-ui.git](https://github.com/eryajf/go-ldap-admin-ui.git) | [https://gitee.com/eryajf-world/go-ldap-admin-ui.git](https://gitee.com/eryajf-world/go-ldap-admin-ui.git) |
+
 
 
 ## 🎉上新推荐
