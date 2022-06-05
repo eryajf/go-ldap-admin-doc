@@ -1,7 +1,7 @@
 ---
 home: true
 heroImage: /img/logo.png
-heroText: go-ldap-admin
+heroText: Go-Ldap-Admin
 tagline: 🚀基于Go+Vue实现的openLDAP后台管理项目
 actionText: 快速开始 →
 actionLink: /pages/706e78/
