@@ -9,9 +9,10 @@ module.exports = {
   repo: 'eryajf/go-ldap-admin-doc', // 导航栏右侧生成Github链接
   searchMaxSuggestions: 10, // 搜索结果显示最大数
   lastUpdated: '上次更新', // 开启更新时间，并配置前缀文字   string | boolean (取值为git提交时间)
-  editLinks: false, // 关闭编辑按钮,此编辑无实际意义
+  editLinks: true, // 启用编辑链接
   docsDir: 'docs', // 编辑的文件夹
-  editLinkText: '编辑',
+  docsBranch: 'main', // 编辑的分支
+  editLinkText: '帮助我们改善此页面',
 
   //*** 以下配置是Vdoing主题改动和新增的配置 ***//
 
