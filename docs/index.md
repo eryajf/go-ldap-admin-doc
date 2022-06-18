@@ -56,16 +56,18 @@ postList: none
 | 后端 |  [https://github.com/eryajf/go-ldap-admin.git](https://github.com/eryajf/go-ldap-admin.git)   |  [https://gitee.com/eryajf-world/go-ldap-admin.git](https://gitee.com/eryajf-world/go-ldap-admin.git)   |
 | 前端 | [https://github.com/eryajf/go-ldap-admin-ui.git](https://github.com/eryajf/go-ldap-admin-ui.git) | [https://gitee.com/eryajf-world/go-ldap-admin-ui.git](https://gitee.com/eryajf-world/go-ldap-admin-ui.git) |
 
-
-
 ## 🎉 上新推荐
 
-* `v0.1.1`
+* `👦 v0.2.0`
+  - 支持企业微信的同步能力。
+  - 优化配置文件，统一格式规范。
+  - 修复前端获取分组内成员的bug。
+* `👨‍🍼 v0.1.1`
   - user和group分别添加dn字段,便于辅助前端界面理解。
   - 改造dingtalk同步的架构以及同步逻辑，解决同步员工不全的bug。
   - 添加golangci-lint静态扫描，解决原来一些扫描到的问题。
   - 添加issue模板，自动生成releases说明，golangci-lint的Actions扫描。
-* `v0.1.0`
+* `👶 v0.1.0`
   - 支持针对于openLDAP的用户和分组的基础管理能力。
   - 初步支持钉钉的组织架构及员工的同步能力。
 
@@ -77,5 +79,4 @@ postList: none
 你也可以在Issue查看别人提的问题和给出解决方案。
 
 或者加入我们的交流群：搜索`eryajf`(备注ldap)添加我的微信进群。
-
 
