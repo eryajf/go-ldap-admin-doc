@@ -1,3 +1,5 @@
+欢迎您一同共建go-ldap-admin的文档。
+
 ## Getting Started
 
 Install dependencies
