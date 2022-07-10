@@ -58,6 +58,12 @@ postList: none
 
 ## 🎉 上新推荐
 
+* `🧑 v0.5.0`
+  * 三个三方IM定时任务的处理 ([#62](https://github.com/eryajf/go-ldap-admin/pull/62)) [@eryajf](https://github.com/eryajf)
+  * 支持一键导入已经在运行openldap数据的能力 ([#60](https://github.com/eryajf/go-ldap-admin/pull/60)) [@eryajf](https://github.com/eryajf)
+  * 添加生成加密密码接口，因为CPU架构问题，更换json库 ([#57](https://github.com/eryajf/go-ldap-admin/pull/57)) [@eryajf](https://github.com/eryajf)
+  * 添加自定义字段，docker-compose添加配置文件挂载 ([#51](https://github.com/eryajf/go-ldap-admin/pull/51)) [@0x0034](https://github.com/0x0034)
+  * 完成三方IM部门与员工字段动态关联本地字段 ([#44](https://github.com/eryajf/go-ldap-admin/pull/44)) [@eryajf](https://github.com/eryajf)
 * `👦 v0.3.0`
   - 支持飞书的同步能力。
 * `👦 v0.2.0`
