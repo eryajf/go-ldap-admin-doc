@@ -58,24 +58,45 @@ postList: none
 
 ## 🎉 上新推荐
 
-* `🧑 v0.5.0`
+* [`🧑 v0.5.2`](https://github.com/eryajf/go-ldap-admin/releases/tag/v0.5.2)
+
+  - feat: LDAP 添加连接池支持 ([#95](https://github.com/eryajf/go-ldap-admin/pull/95)) [@RoninZc](https://github.com/RoninZc)
+
+  - fix: 用户操作过程中角色权限的一些校验问题 ([#90](https://github.com/eryajf/go-ldap-admin/pull/90)) [@eryajf](https://github.com/eryajf)
+  - fix: 修复飞书根部门用户获取问题 ([#88](https://github.com/eryajf/go-ldap-admin/pull/88)) [@eryajf](https://github.com/eryajf)
+  - fix: 从ldap同步过来之后groupType字段的问题 ([#86](https://github.com/eryajf/go-ldap-admin/pull/86)) [@eryajf](https://github.com/eryajf)
+  - fix: 飞书手机号超过11位的问题 ([#85](https://github.com/eryajf/go-ldap-admin/pull/85)) [@eryajf](https://github.com/eryajf)
+  - fix: 调整三方同步时分组与成员判断是否存在的依据,改为与ldap一致的DN ([#84](https://github.com/eryajf/go-ldap-admin/pull/84)) [@eryajf](https://github.com/eryajf)
+
+  - 🎊 readme中示例截图表格化呈现 ([#93](https://github.com/eryajf/go-ldap-admin/pull/93)) [@eryajf](https://github.com/eryajf)
+
+* [`🧑 v0.5.0`](https://github.com/eryajf/go-ldap-admin/releases/tag/v0.5.0)
+  
   * 三个三方IM定时任务的处理 ([#62](https://github.com/eryajf/go-ldap-admin/pull/62)) [@eryajf](https://github.com/eryajf)
   * 支持一键导入已经在运行openldap数据的能力 ([#60](https://github.com/eryajf/go-ldap-admin/pull/60)) [@eryajf](https://github.com/eryajf)
   * 添加生成加密密码接口，因为CPU架构问题，更换json库 ([#57](https://github.com/eryajf/go-ldap-admin/pull/57)) [@eryajf](https://github.com/eryajf)
   * 添加自定义字段，docker-compose添加配置文件挂载 ([#51](https://github.com/eryajf/go-ldap-admin/pull/51)) [@0x0034](https://github.com/0x0034)
   * 完成三方IM部门与员工字段动态关联本地字段 ([#44](https://github.com/eryajf/go-ldap-admin/pull/44)) [@eryajf](https://github.com/eryajf)
-* `👦 v0.3.0`
+  
+* [`👦 v0.3.0`](https://github.com/eryajf/go-ldap-admin/releases/tag/v0.3.0)
+  
   - 支持飞书的同步能力。
-* `👦 v0.2.0`
+  
+* [`👦 v0.2.0`](https://github.com/eryajf/go-ldap-admin/releases/tag/v0.2.0)
+  
   - 支持企业微信的同步能力。
   - 优化配置文件，统一格式规范。
   - 修复前端获取分组内成员的bug。
-* `👨‍🍼 v0.1.1`
+  
+* [`👨‍🍼 v0.1.1`](https://github.com/eryajf/go-ldap-admin/releases/tag/v0.1.1)
+  
   - user和group分别添加dn字段,便于辅助前端界面理解。
   - 改造dingtalk同步的架构以及同步逻辑，解决同步员工不全的bug。
   - 添加golangci-lint静态扫描，解决原来一些扫描到的问题。
   - 添加issue模板，自动生成releases说明，golangci-lint的Actions扫描。
-* `👶 v0.1.0`
+  
+* [`👶 v0.1.0`](https://github.com/eryajf/go-ldap-admin/releases/tag/v0.1.0)
+  
   - 支持针对于openLDAP的用户和分组的基础管理能力。
   - 初步支持钉钉的组织架构及员工的同步能力。
 
