@@ -58,7 +58,21 @@ postList: none
 
 ## 🎉 上新推荐
 
-- `👩‍🦱 v0.5.3`
+- [`👩 v0.5.4`](https://github.com/eryajf/go-ldap-admin/releases/tag/v0.5.4)
+  - fix: 添加字段关系表的初始化 ([#146](https://github.com/eryajf/go-ldap-admin/pull/146)) [@eryajf](https://github.com/eryajf)
+  - feat: 数据库存储系统支持sqlite3 ([#141](https://github.com/eryajf/go-ldap-admin/pull/141)) [@eryajf](https://github.com/eryajf)
+  - fix: sql 文件 ([#120](https://github.com/eryajf/go-ldap-admin/pull/120)) [@eryajf](https://github.com/eryajf)
+  - 配合前端优化了一些内容 ([#148](https://github.com/eryajf/go-ldap-admin/pull/148)) [@eryajf](https://github.com/eryajf)
+  - fix: 增大lint检查的超时时间，让action的检查跑完 ([#145](https://github.com/eryajf/go-ldap-admin/pull/145)) [@eryajf](https://github.com/eryajf)
+  - fix: 调整手机号的校验正则为宽松政策，变成只校验开头为1的11位数字， ([#137](https://github.com/eryajf/go-ldap-admin/pull/137)) [@eryajf](https://github.com/eryajf)
+  - fix: 邮箱与手机号占位时符合该资源格式,将定时任务的配置可配置化 ([#131](https://github.com/eryajf/go-ldap-admin/pull/131)) [@eryajf](https://github.com/eryajf)
+  - fix: ldap 更新用户的一个bug ([#128](https://github.com/eryajf/go-ldap-admin/pull/128)) [@Foustdg](https://github.com/Foustdg)
+  - fix: 修复添加用户时的分组问题 ([#117](https://github.com/eryajf/go-ldap-admin/pull/117)) [@eryajf](https://github.com/eryajf)
+  - 🐡 fix: empty mobile 占位字符问题 ([#107](https://github.com/eryajf/go-ldap-admin/pull/107)) [@eryajf](https://github.com/eryajf)
+  - fix 调整手机号校验的规则 ([#134](https://github.com/eryajf/go-ldap-admin/pull/134)) [@eryajf](https://github.com/eryajf)
+  - fix: 将分组的菜单设置为不缓存,解决进入不同分组时数据不更新的问题 ([#133](https://github.com/eryajf/go-ldap-admin/pull/133)) [@eryajf](https://github.com/eryajf)
+
+- [`👩‍🦱 v0.5.3`](https://github.com/eryajf/go-ldap-admin/releases/tag/v0.5.3)
   - 🐡 feat: 处理拼音转换的问题 ([#106](https://github.com/eryajf/go-ldap-admin/pull/106)) [@eryajf](https://github.com/eryajf)
   - 🎡 feat: 添加赞助页,以及暴漏添加部门用户失败的名字 ([#98](https://github.com/eryajf/go-ldap-admin/pull/98)) [@eryajf](https://github.com/eryajf)
   - ☄️ fix: 企业微信同步用户之后部门的问题,兼容用户没有手机号同步失败的问题 ([#102](https://github.com/eryajf/go-ldap-admin/pull/102)) [@eryajf](https://github.com/eryajf)
@@ -104,6 +118,4 @@ postList: none
 
 在使用过程中有任何问题和想法，请提 [Issue](https://github.com/eryajf/go-ldap-admin/issues)。
 你也可以在Issue查看别人提的问题和给出解决方案。
-
-或者加入我们的交流群：搜索`eryajf`(备注ldap)添加我的微信进群。
 
