@@ -58,6 +58,10 @@ postList: none
 
 ## 🎉 上新推荐
 
+- [`👱‍♀️ v0.5.5`](https://github.com/eryajf/go-ldap-admin/releases/tag/v0.5.5)
+  - feat: 添加sql数据补偿能力 ([#153](https://github.com/eryajf/go-ldap-admin/pull/153)) [@eryajf](https://github.com/eryajf)
+  - feat: 添加官方文档与github的地址，添加页脚版权 ([#33](https://github.com/eryajf/go-ldap-admin-ui/pull/33)) [@eryajf](https://github.com/eryajf)
+
 - [`👩 v0.5.4`](https://github.com/eryajf/go-ldap-admin/releases/tag/v0.5.4)
   - fix: 添加字段关系表的初始化 ([#146](https://github.com/eryajf/go-ldap-admin/pull/146)) [@eryajf](https://github.com/eryajf)
   - feat: 数据库存储系统支持sqlite3 ([#141](https://github.com/eryajf/go-ldap-admin/pull/141)) [@eryajf](https://github.com/eryajf)
