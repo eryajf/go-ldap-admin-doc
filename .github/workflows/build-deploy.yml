@@ -12,22 +12,17 @@ env: # 设置环境变量
 jobs:
   build: # 自定义名称
     runs-on: ubuntu-latest # 运行在虚拟机环境ubuntu-latest
-
-    strategy:
-      matrix:
-        node-version: [12.x]
-
     steps:
-      - name: Checkout # 步骤1
-        uses: actions/checkout@v1 # 使用的动作。格式：userName/repoName。作用：检出仓库，获取源码。 官方actions库：https://github.com/actions
-      - name: Use Node.js ${{ matrix.node-version }} # 步骤2
-        uses: actions/setup-node@v1 # 作用：安装nodejs
+      - name: Checkout 🛎️
+        uses: actions/checkout@v3
+
+      - name: build project ⚗️
+        uses: actions/setup-node@v3
         with:
-          node-version: ${{ matrix.node-version }} # 版本
-      - name: run deploy.sh # 步骤3
-        env: # 设置环境变量
-          GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }} # toKen私密变量
-        run: npm install && npm run deploy
+          node-version: 16
+      - run: |
+          yarn
+          yarn build
 
       # 利用action把build好的文件上传到服务器/home/eryajf.github.io路径下,需要确认此目录已在服务端创建
       - name: deploy file to server
