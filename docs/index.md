@@ -58,6 +58,22 @@ postList: none
 
 ## 🎉 上新推荐
 
+
+- [`👩‍🦱 v0.5.9`](https://github.com/eryajf/go-ldap-admin/releases/tag/v0.5.9)
+  - fix: 解决数据初始化的问题 ([#168](https://github.com/eryajf/go-ldap-admin/pull/168)) [@eryajf](https://github.com/eryajf)
+  - fix: 已离职的账号或者未同步的账号,不能重置密码 ([#167](https://github.com/eryajf/go-ldap-admin/pull/167)) [@eryajf](https://github.com/eryajf)
+
+- [`🧑 v0.5.8`](https://github.com/eryajf/go-ldap-admin/releases/tag/v0.5.8)
+  - feat: 优化重置密码的逻辑,添加验证码校验 ([#164](https://github.com/eryajf/go-ldap-admin/pull/164)) [@eryajf](https://github.com/eryajf)
+  - fix: 修复普通用户登陆之后菜单未能正常获取的问题 ([#166](https://github.com/eryajf/go-ldap-admin/pull/166)) [@eryajf](https://github.com/eryajf)
+  - fix: sqlite3 并发之后被 lock 的问题 ([#162](https://github.com/eryajf/go-ldap-admin/pull/162)) [@eryajf](https://github.com/eryajf)
+
+- [`🧑‍🦰 v0.5.6`](https://github.com/eryajf/go-ldap-admin/releases/tag/v0.5.6)
+  - fix: 修复自动任务会删除中间关系的问题 ([#157](https://github.com/eryajf/go-ldap-admin/pull/157)) [@eryajf](https://github.com/eryajf)
+  - 调整一些文档以及sql文件的更新 ([#156](https://github.com/eryajf/go-ldap-admin/pull/156)) [@eryajf](https://github.com/eryajf)
+  - 升级go版本,将sqlite库换成 glebarez/sqlite 无CGO依赖版 ([#155](https://github.com/eryajf/go-ldap-admin/pull/155)) [@eryajf](https://github.com/eryajf)
+  - 更换docker image代理,解决镜像不更新的问题 ([#154](https://github.com/eryajf/go-ldap-admin/pull/154)) [@eryajf](https://github.com/eryajf)
+
 - [`👱‍♀️ v0.5.5`](https://github.com/eryajf/go-ldap-admin/releases/tag/v0.5.5)
   - feat: 添加sql数据补偿能力 ([#153](https://github.com/eryajf/go-ldap-admin/pull/153)) [@eryajf](https://github.com/eryajf)
   - feat: 添加官方文档与github的地址，添加页脚版权 ([#33](https://github.com/eryajf/go-ldap-admin-ui/pull/33)) [@eryajf](https://github.com/eryajf)
@@ -117,6 +133,63 @@ postList: none
   - 初步支持钉钉的组织架构及员工的同步能力。
 
 更多上新请查阅：[**更新日志**](https://github.com/eryajf/go-ldap-admin/releases)
+
+## 🥳 谁在使用
+
+如果您所在公司在使用 go-ldap-admin，也欢迎通过 [ISSUE](https://github.com/eryajf/go-ldap-admin/issues/18) 将信息做个登记，让更多的人了解有多少公司在使用 go-ldap-admin，也能让用户更加安心使用 go-ldap-admin。
+
+::: cardList
+```yaml
+- name: UB-TECH
+  desc: 深圳
+  avatar: https://cdn.staticaly.com/gh/eryajf/tu/main/img/image_20230318_194422.jpg
+  link: https://www.ubtrobot.com/
+  bgColor: '#f5f5f5'
+  textColor: '#A05F2C'
+- name: QUGUO
+  desc: 佛山
+  avatar: https://cdn.staticaly.com/gh/eryajf/tu/main/img/image_20230318_195529.jpg
+  link: https://quguonet.com/
+  bgColor: '#f5f5f5'
+  textColor: '#A05F2C'
+- name: 为基信息
+  desc: 长沙
+  avatar: https://cdn.staticaly.com/gh/eryajf/tu/main/img/image_20230318_195958.png
+  link: https://www.veigit.com/
+  bgColor: '#f5f5f5'
+  textColor: '#A05F2C'
+- name: 市值风云公司
+  desc: 杭州
+  avatar: https://cdn.staticaly.com/gh/eryajf/tu/main/img/image_20230318_202602.jpg
+  link: https://www.wogoo.com/
+  bgColor: '#f5f5f5'
+  textColor: '#A05F2C'
+- name: 王府井免税品
+  desc: 北京
+  avatar: https://cdn.staticaly.com/gh/eryajf/tu/main/img/image_20230318_203114.png
+  link: https://wfjec.com/
+  bgColor: '#f5f5f5'
+  textColor: '#A05F2C'
+- name: 高盈科技
+  desc: 深圳
+  avatar: https://cdn.staticaly.com/gh/eryajf/tu/main/img/image_20230318_203238.png
+  link: https://www.1quant.com/
+  bgColor: '#f5f5f5'
+  textColor: '#A05F2C'
+- name: 海宝智造
+  desc: 无锡
+  avatar: https://cdn.staticaly.com/gh/eryajf/tu/main/img/image_20230318_204117.png
+  link: https://www.1quant.com/
+  bgColor: '#f5f5f5'
+  textColor: '#A05F2C'
+- name: 容知日新
+  desc: 合肥
+  avatar: https://cdn.staticaly.com/gh/eryajf/tu/main/img/image_20230318_203831.png
+  link: https://www.1quant.com/
+  bgColor: '#f5f5f5'
+  textColor: '#A05F2C'
+```
+:::
 
 ## ⚡ 反馈与交流
 
