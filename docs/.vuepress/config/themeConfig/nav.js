@@ -17,6 +17,7 @@ module.exports = [
         { text: '常见问题', link: '/pages/771802/'},
       ]
   },
+  { text: '版本历史', link: '/pages/db2afa/' },
   { text: '周边相关',link: '/pages/17ba17/',
       items: [
         { text: 'openLDAP', link: '/pages/17ba17/'},
