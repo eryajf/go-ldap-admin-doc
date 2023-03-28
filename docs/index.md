@@ -101,13 +101,13 @@ postList: none
 - name: 海宝智造
   desc: 无锡
   avatar: https://cdn.staticaly.com/gh/eryajf/tu/main/img/image_20230318_204117.png
-  link: https://www.1quant.com/
+  link: http://hibaosoft.com/
   bgColor: '#f5f5f5'
   textColor: '#A05F2C'
 - name: 容知日新
   desc: 合肥
   avatar: https://cdn.staticaly.com/gh/eryajf/tu/main/img/image_20230318_203831.png
-  link: https://www.1quant.com/
+  link: https://cn.ronds.com/
   bgColor: '#f5f5f5'
   textColor: '#A05F2C'
 ```
