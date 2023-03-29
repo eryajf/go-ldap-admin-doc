@@ -110,6 +110,12 @@ postList: none
   link: https://cn.ronds.com/
   bgColor: '#f5f5f5'
   textColor: '#A05F2C'
+- name: 云鹊医疗科技有限公司
+  desc: 上海
+  avatar: https://cdn.staticaly.com/gh/eryajf/tu/main/img/image_20230329_150433.png
+  link: https://www.yunqueyi.com/
+  bgColor: '#f5f5f5'
+  textColor: '#A05F2C'
 ```
 :::
 
