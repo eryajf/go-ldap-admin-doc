@@ -116,6 +116,12 @@ postList: none
   link: https://www.yunqueyi.com/
   bgColor: '#f5f5f5'
   textColor: '#A05F2C'
+- name: 安克创新股份有限公司
+  desc: 深圳
+  avatar: https://cdn.staticaly.com/gh/eryajf/tu/main/img/image_20230330_164038.png
+  link: https://www.anker.com.cn/
+  bgColor: '#f5f5f5'
+  textColor: '#A05F2C'
 ```
 :::
 
