@@ -5,8 +5,8 @@ module.exports = [
   [
     'vuepress-plugin-meilisearch',
       {
-          hostUrl: 'https://ms-d5d5d07c4cab-1961.sgp.meilisearch.io',        // meilisearch 服务端域名
-          apiKey: "575b81b52d62c70a11367b8c4bdc1cb2532270d89381d2da7fb0ebd6b7c7f675", // 只有搜索权限的 key
+          hostUrl: 'https://search.eryajf.net',        // meilisearch 服务端域名
+          apiKey: "8d05703c1896278c2507375b47b8bf4d8366ad00b2a1e7a24c5fcc38744af48d", // 只有搜索权限的 key
           indexUid: 'ldapdoc',
           // placeholder: 'Search as you type...',   // 在搜索栏中显示的占位符
           maxSuggestions: 9,                      // 最多显示几个搜索结果
