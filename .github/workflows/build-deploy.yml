@@ -10,8 +10,8 @@ env: # 设置环境变量
   TZ: Asia/Shanghai # 时区（设置时区可使页面中的`最近更新时间`使用时区时间）
 
 jobs:
-  build: # 自定义名称
-    runs-on: ubuntu-latest # 运行在虚拟机环境ubuntu-latest
+  deploy:
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout 🛎️
         uses: actions/checkout@v3
@@ -21,7 +21,7 @@ jobs:
         with:
           node-version: 16
       - run: |
-          yarn
+          npm install
           yarn build
 
       # 利用action把build好的文件上传到服务器/home/eryajf.github.io路径下,需要确认此目录已在服务端创建
