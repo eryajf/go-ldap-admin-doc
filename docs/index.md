@@ -123,6 +123,12 @@ postList: none
   link: https://www.anker.com.cn/
   bgColor: "#f5f5f5"
   textColor: "#A05F2C"
+- name: 杭州鸿康信息技术有限公司
+  desc: 杭州
+  avatar: https://t.eryajf.net/imgs/2023/10/1697506189147.png
+  link: https://www.hkoa.com.cn/
+  bgColor: "#f5f5f5"
+  textColor: "#A05F2C"
 ```
 
 :::
