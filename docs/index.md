@@ -129,6 +129,12 @@ postList: none
   link: https://www.hkoa.com.cn/
   bgColor: "#f5f5f5"
   textColor: "#A05F2C"
+- name: 即时设计
+  desc: 北京
+  avatar: https://t.eryajf.net/imgs/2023/12/1702128705859.ico
+  link: https://js.design/
+  bgColor: "#f5f5f5"
+  textColor: "#A05F2C"
 ```
 
 :::
