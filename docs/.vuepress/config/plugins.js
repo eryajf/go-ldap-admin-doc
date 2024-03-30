@@ -4,14 +4,14 @@ module.exports = [
   // 全文搜索插件 meilisearch
   [
     'vuepress-plugin-meilisearch',
-      {
-          hostUrl: 'https://search.eryajf.net',        // meilisearch 服务端域名
-          apiKey: "8d05703c1896278c2507375b47b8bf4d8366ad00b2a1e7a24c5fcc38744af48d", // 只有搜索权限的 key
-          indexUid: 'ldapdoc',
-          // placeholder: 'Search as you type...',   // 在搜索栏中显示的占位符
-          maxSuggestions: 9,                      // 最多显示几个搜索结果
-          cropLength: 30,                         // 每个搜索结果最多显示多少个字符
-      },
+    {
+      hostUrl: 'https://search.eryajf.net',        // meilisearch 服务端域名
+      apiKey: "f555f7a5c762aaf60a3c0a0654b8bea863f77f0a5a9e7cb8edc3b5f62bdc3a9b", // 只有搜索权限的 key
+      indexUid: 'ldapdoc',
+      // placeholder: 'Search as you type...',   // 在搜索栏中显示的占位符
+      maxSuggestions: 9,                      // 最多显示几个搜索结果
+      cropLength: 30,                         // 每个搜索结果最多显示多少个字符
+    },
   ],
   // add sitemap
   [
