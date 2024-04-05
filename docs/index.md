@@ -142,6 +142,4 @@ postList: none
 
 ## ⚡ 反馈与交流
 
-在使用过程中有任何问题和想法，请提 [Issue](https://github.com/eryajf/go-ldap-admin/issues)。
-你也可以在 Issue 查看别人提的问题和给出解决方案。
-也可以选择[付费](/pages/7eab1c/)服务。
+在使用过程中有任何问题和想法，请提 [Issue](https://github.com/eryajf/go-ldap-admin/issues)。你也可以在 Issue 查看别人提的问题和给出解决方案。也可以选择[付费](/pages/7eab1c/)服务。
