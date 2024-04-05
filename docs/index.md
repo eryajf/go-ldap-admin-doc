@@ -49,7 +49,6 @@ postList: none
 
 在线环境可能不稳，如果遇到访问异常，或者数据错乱，请联系我进行修复。
 
-> 注：因服务器资源有限，固不再提供demo环境，请自行通过docker-compose一键拉起体验。(20240330)
 
 ## 👨‍💻 代码托管
 
@@ -145,3 +144,4 @@ postList: none
 
 在使用过程中有任何问题和想法，请提 [Issue](https://github.com/eryajf/go-ldap-admin/issues)。
 你也可以在 Issue 查看别人提的问题和给出解决方案。
+也可以选择[付费](/pages/7eab1c/)服务。
