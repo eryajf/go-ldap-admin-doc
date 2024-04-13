@@ -31,6 +31,7 @@
     "leancloud-storage": "^4.11.1",
     "vuepress-plugin-comment": "^0.7.3",
     "vuepress-plugin-meilisearch": "^0.13.0",
+    "vuepress-plugin-pangu": "^1.0.1",
     "vuepress-plugin-sitemap": "^2.3.1"
   }
 }

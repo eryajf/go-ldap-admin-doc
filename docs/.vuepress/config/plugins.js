@@ -1,5 +1,6 @@
 // 插件配置
 module.exports = [
+  'pangu',
   'vuepress-plugin-baidu-autopush', // 百度自动推送
   // 全文搜索插件 meilisearch
   [

@@ -3,7 +3,8 @@ const plugins = require('./config/plugins.js');
 const themeConfig = require('./config/themeConfig.js');
 
 module.exports = {
-  theme: 'vdoing', // 使用npm包主题
+  // theme: 'vdoing', // 使用npm包主题
+  theme: require.resolve('../../vdoing'), // 使用本地主题包
   title: "Go-Ldap-Admin",
   description: '基于Go+Vue实现的openLDAP后台管理项目',
   base: '/', // 格式：'/<仓库名>/'， 默认'/'
