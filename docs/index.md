@@ -44,8 +44,7 @@ postList: none
 
 |     分类      |                                           地址                                           |          用户名           | 密码   |
 | :-----------: | :--------------------------------------------------------------------------------------: | :-----------------------: | ------ |
-| go-ldap-admin |       [http://demo-go-ldap-admin.eryajf.net](http://demo-go-ldap-admin.eryajf.net)       |           admin           | 123456 |
-| phpLdapAdmin  | [http://demo-go-ldap-admin.eryajf.net:8091/](http://demo-go-ldap-admin.eryajf.net:8091/) | cn=admin,dc=eryajf,dc=net | 123456 |
+| go-ldap-admin |       [http://61.171.114.86:8888](http://61.171.114.86:8888)       |           admin           | 123456 |
 
 在线环境可能不稳，如果遇到访问异常，或者数据错乱，请联系我进行修复。
 
