@@ -65,73 +65,73 @@ postList: none
 ```yaml
 - name: UB-TECH
   desc: 深圳
-  avatar: https://t.eryajf.net/imgs/2023/10/1697454392419.jpg
+  avatar: /img/1697454392419.jpg
   link: https://www.ubtrobot.com/
   bgColor: "#f5f5f5"
   textColor: "#A05F2C"
 - name: QUGUO
   desc: 佛山
-  avatar: https://t.eryajf.net/imgs/2023/10/1697454406627.jpg
+  avatar: /img/1697454406627.jpg
   link: https://quguonet.com/
   bgColor: "#f5f5f5"
   textColor: "#A05F2C"
 - name: 为基信息
   desc: 长沙
-  avatar: https://t.eryajf.net/imgs/2023/10/1697454418722.png
+  avatar: /img/1697454418722.png
   link: https://www.veigit.com/
   bgColor: "#f5f5f5"
   textColor: "#A05F2C"
 - name: 市值风云公司
   desc: 杭州
-  avatar: https://t.eryajf.net/imgs/2023/10/1697454428610.jpg
+  avatar: /img/1697454428610.jpg
   link: https://www.wogoo.com/
   bgColor: "#f5f5f5"
   textColor: "#A05F2C"
 - name: 王府井免税品
   desc: 北京
-  avatar: https://t.eryajf.net/imgs/2023/10/1697454444546.png
+  avatar: /img/1697454444546.png
   link: https://wfjec.com/
   bgColor: "#f5f5f5"
   textColor: "#A05F2C"
 - name: 高盈科技
   desc: 深圳
-  avatar: https://t.eryajf.net/imgs/2023/10/1697454452775.png
+  avatar: /img/1697454452775.png
   link: https://www.1quant.com/
   bgColor: "#f5f5f5"
   textColor: "#A05F2C"
 - name: 海宝智造
   desc: 无锡
-  avatar: https://t.eryajf.net/imgs/2023/10/1697454462010.png
+  avatar: /img/1697454462010.png
   link: http://hibaosoft.com/
   bgColor: "#f5f5f5"
   textColor: "#A05F2C"
 - name: 容知日新
   desc: 合肥
-  avatar: https://t.eryajf.net/imgs/2023/10/1697454469535.png
+  avatar: /img/1697454469535.png
   link: https://cn.ronds.com/
   bgColor: "#f5f5f5"
   textColor: "#A05F2C"
 - name: 云鹊医疗科技有限公司
   desc: 上海
-  avatar: https://t.eryajf.net/imgs/2023/10/1697454477448.png
+  avatar: /img/1697454477448.png
   link: https://www.yunqueyi.com/
   bgColor: "#f5f5f5"
   textColor: "#A05F2C"
 - name: 安克创新股份有限公司
   desc: 深圳
-  avatar: https://t.eryajf.net/imgs/2023/10/1697454486494.png
+  avatar: /img/1697454486494.png
   link: https://www.anker.com.cn/
   bgColor: "#f5f5f5"
   textColor: "#A05F2C"
 - name: 杭州鸿康信息技术有限公司
   desc: 杭州
-  avatar: https://t.eryajf.net/imgs/2023/10/1697506189147.png
+  avatar: /img/1697506189147.png
   link: https://www.hkoa.com.cn/
   bgColor: "#f5f5f5"
   textColor: "#A05F2C"
 - name: 即时设计
   desc: 北京
-  avatar: https://t.eryajf.net/imgs/2023/12/1702128705859.ico
+  avatar: /img/1702128705859.ico
   link: https://js.design/
   bgColor: "#f5f5f5"
   textColor: "#A05F2C"

@@ -16,7 +16,7 @@
 <p align="center"> 🌁 go-ldap-admin项目官方文档 🌁</p>
 
 <div align="center">
-<img src="https://cdn.jsdelivr.net/gh/eryajf/tu@main/img/image_20240420_214408.gif" width="800"  height="3">
+<img src="./docs/.vuepress/public/img/image_20240420_214408.gif" width="800"  height="3">
 </div><br>
 
 
