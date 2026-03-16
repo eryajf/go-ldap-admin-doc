@@ -38,13 +38,19 @@ postList: none
 
 ![](/img/architecture.png)
 
+## 💡 付费支持
+
+::: tip 
+部署或使用遇到问题自己搞不定？可以考虑 [付费支持服务 →](/pages/7eab1c/)，快速解决您的问题！
+:::
+
 ## 🏊 在线体验
 
 提供在线体验地址如下：
 
 |     分类      |                                           地址                                           |          用户名           | 密码   |
 | :-----------: | :--------------------------------------------------------------------------------------: | :-----------------------: | ------ |
-| go-ldap-admin |       [http://61.171.114.86:8888](http://61.171.114.86:8888)       |           admin           | 123456 |
+| go-ldap-admin |       [https://demo-go-ldap-admin.eryajf.net/](https://demo-go-ldap-admin.eryajf.net/)       |           admin           | 123456 |
 
 在线环境可能不稳，如果遇到访问异常，或者数据错乱，请联系我进行修复。
 
@@ -139,6 +145,7 @@ postList: none
 
 :::
 
+
 ## ⚡ 反馈与交流
 
-在使用过程中有任何问题和想法，请提 [Issue](https://github.com/eryajf/go-ldap-admin/issues)。你也可以在 Issue 查看别人提的问题和给出解决方案。也可以选择[付费](/pages/7eab1c/)服务。
+在使用过程中有任何问题和想法，请提 [Issue](https://github.com/eryajf/go-ldap-admin/issues)。你也可以在 Issue 查看别人提的问题和给出解决方案。
