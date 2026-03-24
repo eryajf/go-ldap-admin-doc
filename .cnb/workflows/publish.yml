@@ -33,9 +33,9 @@ main:
           settings:
             user: ${SSH_USER}
             key: ${SSH_KEY}
-            port: 2023
+            port: 2026
             hosts:
-              - prod.eryajf.net
+              - ctyun.eryajf.net
             source: docs/.vuepress/dist/
             target: /data/www/ldapdoc.eryajf.net/
             delete: true
